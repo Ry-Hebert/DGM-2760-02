@@ -76,10 +76,10 @@ header, .landing-page, section {
 header nav, footer {
   justify-content: center; }
 
-header, .landing-page {
+.landing-page {
   align-items: center; }
 
-header div, header nav ul, section {
+header nav ul, section {
   max-width: 100vw; }
 
 body {
@@ -92,9 +92,13 @@ header {
   width: 100vw;
   margin: 0rem;
   padding: 0rem;
-  color: #fff; }
+  color: #fff;
+  background-image: url(/assets/img/Pink-Panther-2.2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  height: 75vh; }
   header div {
-    width: 100%;
     justify-content: flex-start;
     height: 20vh; }
     header div h1 {
@@ -140,10 +144,7 @@ footer {
 .active {
   background-color: #3e7c3b; }
 
-header {
-  width: 100%; }
-
 .logo-head {
-  margin: 2rem 0rem 0rem 8rem; }
+  margin: .5rem 0rem 0rem .8rem; }
 
 /*# sourceMappingURL=styles.css.map */

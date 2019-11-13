@@ -38,16 +38,19 @@ body
 
 header
 {
-    @extend %flex-col, %align-items-cent;
+    @extend %flex-col;
     font-size: 1.2rem;
     width: 100vw;
     margin: 0rem;
     padding: 0rem;
     color: #fff;
+    background-image: url(/assets/img/Pink-Panther-2.2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    height: 75vh;
     div
     {
-        @extend %mx-width;
-        width: 100%;
         justify-content: flex-start;
         height: 20vh;
         h1
@@ -124,13 +127,8 @@ footer
     background-color: darken($color1, 10%);
 }
 
-header
-{
-    width: 100%;
-}
-
 .logo-head
 {
-    margin: 2rem 0rem 0rem 8rem;
+    margin: .5rem 0rem 0rem .8rem;
 }
 
